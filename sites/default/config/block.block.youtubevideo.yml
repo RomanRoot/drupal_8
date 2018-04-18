@@ -1,0 +1,31 @@
+uuid: 778c8618-e3e3-40ee-9063-8674eb6bb793
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:195d864c-6948-4ea8-9538-a621c80700d3'
+  module:
+    - block_content
+    - system
+  theme:
+    - bartik
+id: youtubevideo
+theme: bartik
+region: featured_bottom_second
+weight: 0
+provider: null
+plugin: 'block_content:195d864c-6948-4ea8-9538-a621c80700d3'
+settings:
+  id: 'block_content:195d864c-6948-4ea8-9538-a621c80700d3'
+  label: 'YouTube Video'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

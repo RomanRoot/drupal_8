@@ -1,0 +1,25 @@
+uuid: 61b61c21-eed5-4e05-a315-64701dbe8e12
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:38dae95e-e05e-4fe3-9e44-6817fefcc660'
+  module:
+    - block_content
+  theme:
+    - bartik
+id: map1
+theme: bartik
+region: footer_fifth
+weight: 0
+provider: null
+plugin: 'block_content:38dae95e-e05e-4fe3-9e44-6817fefcc660'
+settings:
+  id: 'block_content:38dae95e-e05e-4fe3-9e44-6817fefcc660'
+  label: Map1
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

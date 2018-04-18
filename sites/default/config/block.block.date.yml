@@ -1,0 +1,25 @@
+uuid: 2a5b6b5a-b3ef-4823-b321-bcb3d15700b7
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:block_with_date:bf13c9ab-2535-4359-bf11-34a7d4c26eed'
+  module:
+    - block_content
+  theme:
+    - bartik
+id: date
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'block_content:bf13c9ab-2535-4359-bf11-34a7d4c26eed'
+settings:
+  id: 'block_content:bf13c9ab-2535-4359-bf11-34a7d4c26eed'
+  label: Date
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

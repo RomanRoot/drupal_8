@@ -1,0 +1,29 @@
+uuid: fe6c357c-9018-45a4-a65f-88a103f2c97c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tags
+    - node.type.pdftype
+    - taxonomy.vocabulary.tags
+id: node.pdftype.field_tags
+field_name: field_tags
+entity_type: node
+bundle: pdftype
+label: Tags
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      tags: tags
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,112 @@
+uuid: af9f451d-a2e6-40d7-996c-6dda792bfde7
+langcode: en
+status: true
+dependencies:
+  module:
+    - social_media_links
+  theme:
+    - bartik
+id: socialmedialinks
+theme: bartik
+region: content
+weight: 0
+provider: null
+plugin: social_media_links_block
+settings:
+  id: social_media_links_block
+  label: 'Social Media Links'
+  provider: social_media_links
+  label_display: visible
+  platforms:
+    rss:
+      value: ''
+      description: ''
+      weight: '-10'
+    email:
+      value: ''
+      description: ''
+      weight: '-9'
+    flickr:
+      value: ''
+      description: ''
+      weight: '-8'
+    linkedin:
+      value: ''
+      description: ''
+      weight: '-7'
+    vkontakte:
+      value: ''
+      description: ''
+      weight: '-6'
+    googleplus:
+      value: /
+      description: ''
+      weight: '-5'
+    youtube:
+      value: ''
+      description: ''
+      weight: '-4'
+    instagram:
+      value: ''
+      description: ''
+      weight: '-3'
+    vimeo:
+      value: ''
+      description: ''
+      weight: '-2'
+    drupal:
+      value: ''
+      description: ''
+      weight: '-1'
+    contact:
+      value: ''
+      description: ''
+      weight: '0'
+    twitter:
+      value: /
+      description: ''
+      weight: '1'
+    facebook:
+      value: /
+      description: ''
+      weight: '2'
+    bitbucket:
+      value: ''
+      description: ''
+      weight: '3'
+    youtube_channel:
+      value: ''
+      description: ''
+      weight: '4'
+    pinterest:
+      value: ''
+      description: ''
+      weight: '5'
+    slideshare:
+      value: ''
+      description: ''
+      weight: '6'
+    tumblr:
+      value: ''
+      description: ''
+      weight: '7'
+    behance:
+      value: ''
+      description: ''
+      weight: '8'
+    github:
+      value: ''
+      description: ''
+      weight: '9'
+  appearance:
+    orientation: h
+    show_name: 0
+  link_attributes:
+    target: '<none>'
+    rel: '<none>'
+  iconset:
+    style: 'fontawesome:2x'
+    installed_iconsets:
+      fontawesome:
+        examples: ''
+visibility: {  }

@@ -1,0 +1,32 @@
+uuid: e0c6dd76-67a1-4467-83f3-0c63c19f21c2
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.pictureblock
+    - field.field.block_content.pictureblock.body
+  module:
+    - text
+id: block_content.pictureblock.default
+targetEntityType: block_content
+bundle: pictureblock
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 26
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+    region: content
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

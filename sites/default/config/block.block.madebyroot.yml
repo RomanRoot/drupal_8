@@ -1,0 +1,31 @@
+uuid: 344a3dc6-8acd-4f16-b7da-69f58338b977
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:ea1a6fbe-f9ac-413f-92ad-1aa98efd4442'
+  module:
+    - block_content
+    - system
+  theme:
+    - bartik
+id: madebyroot
+theme: bartik
+region: footer_fifth
+weight: 0
+provider: null
+plugin: 'block_content:ea1a6fbe-f9ac-413f-92ad-1aa98efd4442'
+settings:
+  id: 'block_content:ea1a6fbe-f9ac-413f-92ad-1aa98efd4442'
+  label: 'Made by Root'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

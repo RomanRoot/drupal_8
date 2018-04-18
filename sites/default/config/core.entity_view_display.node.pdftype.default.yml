@@ -1,0 +1,35 @@
+uuid: d98322c5-93f3-4690-963f-512f2912388b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.pdftype.body
+    - field.field.node.pdftype.field_tags
+    - node.type.pdftype
+  module:
+    - text
+    - user
+id: node.pdftype.default
+targetEntityType: node
+bundle: pdftype
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_tags:
+    weight: 102
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

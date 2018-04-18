@@ -1,0 +1,33 @@
+uuid: 58a1b2ce-b21b-4245-a9e5-f76b6bbe0324
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.block_with_date
+    - field.field.block_content.block_with_date.body
+    - field.field.block_content.block_with_date.field_date
+  module:
+    - datetime
+    - text
+id: block_content.block_with_date.default
+targetEntityType: block_content
+bundle: block_with_date
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_date:
+    weight: 1
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+hidden: {  }

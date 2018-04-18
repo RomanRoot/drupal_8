@@ -1,0 +1,8 @@
+uuid: 15f63a0b-22cf-4cb7-81e8-f604d0d7d103
+langcode: en
+status: true
+dependencies: {  }
+id: pictureblock
+label: PictureBlock
+revision: 0
+description: 'Blocks with pictures.'

@@ -1,0 +1,22 @@
+uuid: e1cd3b18-a09d-4217-912a-0d988db76766
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.pdftype
+  module:
+    - text
+id: node.pdftype.body
+field_name: body
+entity_type: node
+bundle: pdftype
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

@@ -1,0 +1,7 @@
+uuid: a7887baf-a912-48b1-9c88-cf23bbe6b994
+langcode: en
+status: false
+dependencies: {  }
+formId: node_pdftype_form
+captchaType: default
+label: null

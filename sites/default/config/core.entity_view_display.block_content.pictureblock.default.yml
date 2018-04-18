@@ -1,0 +1,22 @@
+uuid: 6d23c73f-82da-4f1b-9a2b-882dc6da94c2
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.pictureblock
+    - field.field.block_content.pictureblock.body
+  module:
+    - text
+id: block_content.pictureblock.default
+targetEntityType: block_content
+bundle: pictureblock
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

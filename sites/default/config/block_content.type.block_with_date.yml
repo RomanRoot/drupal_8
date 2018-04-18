@@ -1,0 +1,8 @@
+uuid: 1c405787-5c28-4e4a-8930-2de05ab9ac00
+langcode: en
+status: true
+dependencies: {  }
+id: block_with_date
+label: 'Block with date'
+revision: 0
+description: 'Block with date'

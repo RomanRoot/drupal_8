@@ -1,0 +1,25 @@
+uuid: 2c4c6e08-6512-4940-b3ba-ee218258d2fa
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:pdf_file:41ec0952-e8aa-4a1f-8765-75c7559b358e'
+  module:
+    - block_content
+  theme:
+    - bartik
+id: pdftoadd
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'block_content:41ec0952-e8aa-4a1f-8765-75c7559b358e'
+settings:
+  id: 'block_content:41ec0952-e8aa-4a1f-8765-75c7559b358e'
+  label: 'PDF to add'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

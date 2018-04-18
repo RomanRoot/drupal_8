@@ -1,0 +1,21 @@
+uuid: 44920dba-898f-4c75-a3ce-74ffa7066216
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.block_with_date
+    - field.storage.block_content.field_date
+  module:
+    - datetime
+id: block_content.block_with_date.field_date
+field_name: field_date
+entity_type: block_content
+bundle: block_with_date
+label: date
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: datetime

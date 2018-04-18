@@ -1,0 +1,25 @@
+uuid: 13f8a5b6-55ef-4d16-86e1-d7e900501066
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:967ac3dc-f794-4132-9338-79f35d979e88'
+  module:
+    - block_content
+  theme:
+    - bartik
+id: firstblock
+theme: bartik
+region: highlighted
+weight: 0
+provider: null
+plugin: 'block_content:967ac3dc-f794-4132-9338-79f35d979e88'
+settings:
+  id: 'block_content:967ac3dc-f794-4132-9338-79f35d979e88'
+  label: 'First block'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

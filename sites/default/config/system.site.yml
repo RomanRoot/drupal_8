@@ -1,0 +1,14 @@
+uuid: c891fd40-e4f2-4397-82ee-6781ad6af5cd
+name: root
+mail: revolution.ua@i.ua
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI
